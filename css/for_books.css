@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/*main*/
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*book*/
+
+.container {
+    padding: 60px 100px 60px 100px;
+    margin-bottom: 50px;
+}
+
+.container h1 {
+    margin-bottom: 70px;
+}
+
+.container-book {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.book-box {
+    display: grid;
+    grid-template-rows: 5fr 3fr;
+    justify-content: center;
+}
+
+.book-box .book-data {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.book-box .book-data * {
+    width: 220px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.book-data h4 {
+    color: #65635F;
+    font-weight: normal;
+}
+
+.book-box img {
+    height: 300px;
+    box-shadow: 10px 5px 5px #BFBFBF;
+}

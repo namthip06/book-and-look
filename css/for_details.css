@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/*main*/
+
+main {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-box {
+    background: #F4F4F2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-box img {
+    height: 450px;
+    width: auto;
+    box-shadow: 15px 10px 5px #BFBFBF;
+}
+
+.right-box {
+    padding: 70px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-box .back-btn {
+    display: flex;
+    width: min-content;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.right-box .back-btn h6 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.right-box .top-side {
+    margin-bottom: 40px;
+}
+
+.right-box .top-side h1 {
+    font-family: 'Prompt', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.right-box .top-side h3 {
+    font-family: 'Prompt', sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: normal;
+    color: #65635F;
+}
+
+.line {
+    background: #BFBFBF;
+    height: 1px;
+    width: 100%;
+}
+
+.right-box .down-side {
+    margin-bottom: 60px;
+}
+
+.right-box .down-side h3 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.right-box .down-side .mini-icon {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 3px;
+}
+
+.mini-icon img {
+    height: 30px;
+}
+
+.mini-icon p {
+    font-family: 'Prompt', sans-serif;
+    font-weight: normal;
+    color: #65635F;
+}
+
+.btn-box {
+    background: black;
+    height: 50px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+}
+
+a.add-btn:link, a.add-btn:visited {
+    color: white;
+}
+
+/*details*/
+
+.details-book {
+    margin: 150px auto 150px auto;
+    width: 60%;
+}
+
+.details-book p {
+    font-family: 'Prompt', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}

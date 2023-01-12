@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: white;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+input {
+    height: 50px;
+    width: 600px;
+    border: 1.5px solid #8393B5;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.sign_up-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.sign_up-btn button {
+    height: 40px;
+    width: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2px;
+    background:#161412;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.error {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.error > * {
+    font-family: 'Prompt', sans-serif;
+}
